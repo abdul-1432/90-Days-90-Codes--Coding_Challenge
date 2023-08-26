@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+}
+
+.wrapper {
+  width: 100%;
+  height: 70vh;
+  background: #3498DB;
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  border-radius: 5%;
+  background: url(image-1.png) no-repeat center/cover;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.card:hover .fon {
+  opacity: 0;
+}
+.card:hover .text {
+  height: 10%;
+  padding: 10px 0 0;
+}
+.card:hover .text h2 {
+  margin-bottom: 0;
+}
+.card:hover .text p {
+  opacity: 0;
+}
+.card:hover .btn {
+  transform: scale(1);
+}
+
+.fon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+  z-index: 2;
+  transition: opacity 0.25s;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  height: 60%;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0 0;
+  z-index: 4;
+  transition: height 0.25s, padding 0.25s;
+}
+.text h2 {
+  text-transform: uppercase;
+  color: #3498DB;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  transition: margin-bottom 0.25s;
+}
+.text p {
+  line-height: 20px;
+  margin: 0 10px;
+  color: #777;
+  z-index: 5;
+  transition: opacity 0.25s;
+}
+.text .triangle {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  z-index: 9;
+  transform: matrix(1.01, -0.3, 0, 2, -1, 10);
+  z-index: 3;
+}
+
+.btn {
+  position: absolute;
+  top: calc(70% - 20px);
+  left: calc(50% - 40px);
+  margin: auto;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #0d1ac9;
+  color: #16afc3;
+  transition: transform 0.15s, background 0.25s, color 0.25s, border-color 0.25s;
+  z-index: 4;
+  transform: scale(0);
+  cursor: pointer;
+}
+
+.btn:hover {
+    background: #635fd3;
+    border-color: #34dbd3;
+    text-shadow: #34dbd3;
+  }
+  
