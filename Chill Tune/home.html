@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill music palyer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video"></div>
+    <div class="mama-llamas"></div>
+
+<!-- for fun -->
+<div class="audio">
+  <button type="button" onclick="document.getElementById('audio').play();setTimeout(() => {document.body.classList.add('animate');}, 2500);this.style.display = 'none';">
+    <span>
+      click to play song
+    </span>
+  </button>
+  
+  <audio id="audio" src="https://pablotheflamingo.com/assets/audio/music.mp3"></audio>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
