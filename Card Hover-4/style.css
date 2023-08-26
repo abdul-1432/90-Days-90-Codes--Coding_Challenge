@@ -1,0 +1,165 @@
+html,body{
+  height: 100%;
+}
+body {
+  background: linear-gradient(to bottom, rgb(132, 218, 219) 0%,rgba(5, 61, 66, 0.615) 100%);
+  font-family: 'Droid Serif', serif;
+}
+
+.blog-card {
+  max-width: 550px;
+  width:100%;
+  height: 500px;
+  position: absolute;
+  font-family: 'Droid Serif', serif;
+  color:#fff;
+  top: 20%;
+  right: 0;  
+  left: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0px;
+  box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition:all 0.4s;
+  background: url(data:image/jpeg;base64,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) center no-repeat;
+  background-size: 100%;
+}
+.blog-card a{ 
+color:#fff;
+  text-decoration:none;
+  transition:all 0.2s
+}
+.blog-card .color-overlay {
+  background: rgba(64, 84, 94,0.5);
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+.blog-card .gradient-overlay {  
+  background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  top: 350px;
+  left: 0;
+  z-index: 15;
+}
+.blog-card:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card:hover .card-info {
+  opacity: 1;
+  bottom: 100px;
+}
+.blog-card:hover .color-overlay {
+  background: rgba(64, 64, 70,0.8);
+}
+.blog-card:hover .title-content{
+  margin-top:70px
+}
+.title-content {
+  text-align: center;
+  margin: 170px 0 0 0;
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition:all 0.6s
+}
+
+.blog-card:hover h3:after{
+ 
+  animation: changeLetter 0.3s 1 linear;
+  width:80%
+}
+
+.blog-card h3,h1 {
+  font-size: 1.9em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Abril Fatface', serif;
+  margin-bottom: 0;
+  display:inline-block;
+}
+.blog-card h3 a{  
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+  transition:all 0.2s
+}
+.blog-card h3 a:hover{
+  text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+  content: " ";
+  display: block; 
+  width: 10%;
+  height: 2px;
+  margin: 20px auto;
+  border: 0;
+  background: #BDA26B;
+  transition:all 0.2s
+}
+
+@keyframes changeLetter {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.intro {
+  width: 170px;
+  margin: 0 auto;
+  color: #ddd;
+  font-style: italic;
+  line-height: 18px;
+}
+.intro a{
+  color: #ddd
+}
+.intro a:hover{
+  text-decoration:underline
+}
+.card-info {
+   box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  margin: 0 auto;
+  padding: 0 50px;
+  font-style: 16px;
+  line-height: 24px;
+  z-index: 20;
+  opacity: 0;
+  transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info a{
+  display:block;
+  width:100px;
+  margin:15px auto;
+  background:#fff;
+  color:#444;
+  padding:3px 10px;
+  border-radius:2px;
+  font-size:0.8em
+}
+.card-info a:hover{
+  background: #87ccd8;
+  color:#000000;
+}
+.card-info a:hover span{
+   filter: brightness(10);
+   opacity:1
+}
+
+
