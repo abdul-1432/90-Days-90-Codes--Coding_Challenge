@@ -1,0 +1,91 @@
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+    padding: 30px 0;
+    background: #fff;
+    font-family: "Arvo", serif;
+  }
+  
+  .page_404 img {
+    width: 100%;
+  }
+  
+  .four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .four_zero_four_bg h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  .four_zero_four_bg h3 {
+    font-size: 80px;
+    text-align: center;
+  }
+  
+  .link_404 {
+    color: #fff !important;
+    text-align: center;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+  }
+  .contant_box_404 {
+    margin-top: -50px;
+    text-align: center;
+  }
+  
+  :root {
+    --base-color: rgb(84, 218, 93);
+    --hover-color: rgb(38, 155, 161);
+  }
+ 
+.vertical {
+  display: flexbox;
+ justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  height: 120px;
+  margin: 20px;
+  border: 10px solid var(--base-color);
+  font-size: 4rem;
+  cursor: pointer;
+}
+.vertical > .text {
+  position: relative;
+  color: transparent;
+  background-image: linear-gradient(0deg, var(--hover-color) 0%, var(--hover-color) 50%, var(--base-color) 50%, var(--base-color) 100%);
+  background-repeat: repeat;
+  background-size: 100% 200%;
+  background-position: 0 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: background-position 300ms;
+}
+.vertical::before {
+  content: "Back";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--base-color);
+  transform-origin: 0 0;
+  transform: scale3d(1, 0, 1);
+  transition: transform 300ms;
+}
+.vertical:hover .text {
+  background-position: 0 100%;
+}
+.vertical:hover::before {
+  transform-origin: 0 100%;
+  transform: scale3d(1, 1, 1);
+}
