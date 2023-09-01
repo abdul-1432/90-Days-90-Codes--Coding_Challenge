@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header onload="selectFont()">  
+        <select id="mySelect" onchange="selectFont()">
+          <option value="baskerville-urw">Serif: Baskerville (URW)</option>
+          <option value="bodoni-urw">Serif: Bodoni (URW)</option>
+          <option value="adobe-caslon-pro">Serif: Adobe Caslon</option>
+          <option value="clarendon-urw">Serif: Clarendon (URW)</option>
+          <option value="Sabongaramond-premier-pro">Serif: Garamond Premier</option>
+          <option value="goudy-old-style">Serif: Goudy Old Style</option>
+          <option value="mrs-eaves">Serif: Mrs Eaves</option>
+          <option value="linotype-sabon">Serif: Sabon</option>
+          <option value="ff-scala">Serif: FF Scala</option>
+          <option value="franklin-gothic-atf">Sans Serif: (ATF) Franklin Gothic</option>
+          <option value="futura-pt">Sans Serif: Futura (PT)</option>
+          <option value="gill-sans-nova">Sans Serif: Gill Sans Nova</option>
+          <option value="interstate">Sans Serif: Interstate</option>
+          <option value="ff-meta-correspondence-web-p">Sans Serif: FF Meta</option>
+          <option value="neue-haas-grotesk-display">Sans Serif: Neue Haas Grotesk</option>
+          <option value="news-gothic-std">Sans Serif: News Gothic</option>
+         
+         </select>
+        <button id ="randomButton" onclick="randomFont()">Random Font</button>
+        <input type="range" min="20" max="100" value="60" class="slider" id="fontSize">
+        <button class="label">Size: <span id="value"> </span>px </button>
+      
+      </header>
+      
+      <footer id="textBar">
+          <input type="text" id="customText" autofocus="autofocus" value=" Type Custom Text Here ">
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
