@@ -34,7 +34,7 @@ Throughout the challenge, you will find a wide range of projects, including web 
 | Day | Project Name            | Live Demo                                        |
 |----:|-------------------------|--------------------------------------------------|
 |  01 | JS Parallax 1           | [Demo](https://gafoor.netlify.app/projects/all/90%20days%20codes/projects/javascript-30-30/js-1/home)                                        |
-|  02 | Project 2               | [Demo](#)                                        |
+|  02 | JS parallax 2           | [Demo](https://gafoor.netlify.app/projects/all/90%20days%20codes/projects/javascript-30-30/js-3/home)                                        |
 |  03 | Project 3               | [Demo](#)                                        |
 |  04 | Project 3               | [Demo](#)                                        |
 |  05 | Project 3               | [Demo](#)                                        |
