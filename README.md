@@ -38,7 +38,7 @@ Throughout the challenge, you will find a wide range of projects, including web 
 |  03 | JS Cards               | [Demo](https://gafoor.netlify.app/projects/all/90%20days%20codes/projects/javascript-30-30/js-4/home)                                        |
 |  04 | UI Tabs               | [Demo](https://gafoor.netlify.app/projects/all/90%20days%20codes/projects/javascript-30-30/js-5/home)                                        |
 |  05 | Login Form               | [Demo](https://gafoor.netlify.app/projects/all/90%20days%20codes/projects/javascript-30-30/js-2/home)                                        |
-|  06 | Project 3               | [Demo](#)                                        |
+|  06 | Expanding cards              | [Demo](https://gafoor.netlify.app/projects/all/90%20days%20codes/projects/javascript-30-30/js-8/home)                                        |
 |  07 | Project 3               | [Demo](#)                                        |
 |  08 | Project 3               | [Demo](#)                                        |
 |  09 | Project 3               | [Demo](#)                                        |
